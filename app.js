@@ -90,7 +90,7 @@ class FuturisticPortfolio {
                 technologies: ["HTML5", "CSS3", "JavaScript", "UI/UX"],
                 image: "images/projects/portfolio.png",
                 github: "https://github.com/23f2000792/myportfolio",
-                demo: "https://www.krishgupta.in",
+                demo: "https://krishg.netlify.app/",
                 impact: "Established a strong, interactive professional presence online"
             },
              {
