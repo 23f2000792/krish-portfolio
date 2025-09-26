@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Gupta - Futuristic Data Scientist & AI/ML Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <div class="hologram-loader"></div>
+            <div class="loading-text">KRISH GUPTA</div>
+            <div class="loading-progress">
+                <div class="progress-bar-loader"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Navigation -->
+    <nav class="floating-nav" id="floating-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">KRISH</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link" data-text="HOME">HOME</a></li>
+                <li><a href="#about" class="nav-link" data-text="ABOUT">ABOUT</a></li>
+                <li><a href="#skills" class="nav-link" data-text="SKILLS">SKILLS</a></li>
+                <li><a href="#projects" class="nav-link" data-text="PROJECTS">PROJECTS</a></li>
+                <li><a href="#certifications" class="nav-link" data-text="CERTIFICATIONS">CERTIFICATIONS</a></li>
+                <li><a href="#experience" class="nav-link" data-text="EXPERIENCE">EXPERIENCE</a></li>
+                <li><a href="#blog" class="nav-link" data-text="BLOG">BLOG</a></li>
+                <li><a href="#contact" class="nav-link" data-text="CONTACT">CONTACT</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <button class="recruiter-mode-btn" id="recruiter-mode">
+                    <i class="fas fa-briefcase"></i>
+                    <span>RESUME</span>
+                </button>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="scroll-progress"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="matrix-rain" id="matrix-rain"></div>
+            <div class="particles-system" id="particles-system"></div>
+            <div class="geometric-shapes" id="geometric-shapes"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="holographic-frame">
+                    <div class="avatar-container">
+                        <div class="avatar-placeholder">
+                            <img src="images/my-avatar.jpg" alt="Krish Gupta" class="avatar-img">
+                        </div>
+                        <div class="hologram-rings"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="glitch-text" data-text="KRISH GUPTA">KRISH GUPTA</div>
+                <div class="typing-container">
+                    <span class="typed-text" id="typed-text"></span>
+                    <span class="cursor-glow">|</span>
+                </div>
+                
+                <p class="hero-description">
+                    Transforming data into <span class="highlight">intelligent solutions</span> through 
+                    advanced neural networks, computer vision, and cutting-edge AI technologies.
+                </p>
+                
+                <div class="hero-actions">
+                    <button class="neon-btn primary" data-action="contact">
+                        <span>INITIATE CONTACT</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                    <button class="neon-btn secondary" data-action="resume">
+                        <span>DOWNLOAD RESUME</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                    <button class="neon-btn tertiary" data-action="projects">
+                        <span>EXPLORE MATRIX</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </div>
+                
+                <div class="social-network">
+                    <a href="https://github.com/23f2000792" target="_blank" class="social-node">
+                        <i class="fab fa-github"></i>
+                        <div class="node-pulse"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/krish-gupta-11612327a/" target="_blank" class="social-node">
+                        <i class="fab fa-linkedin"></i>
+                        <div class="node-pulse"></div>
+                    </a>
+                    <a href="https://www.krishgupta.in" target="_blank" class="social-node">
+                        <i class="fas fa-globe"></i>
+                        <div class="node-pulse"></div>
+                    </a>
+                    <a href="mailto:krishgupta200510@gmail.com" class="social-node">
+                        <i class="fas fa-envelope"></i>
+                        <div class="node-pulse"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">SCROLL DOWN</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch-text" data-text="NEURAL PROFILE">PROFILE</h2>
+                <p class="section-subtitle">Unveiling the mind behind data-driven innovation and AI solutions</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content glass-card">
+                    <div class="content-block">
+                        <h3>SYSTEM OVERVIEW</h3>
+                        <p style="text-align: justify;">
+                            Krish Gupta is an AI and Data Science enthusiast currently pursuing a BS in Data Science at IIT Madras
+                            with a Minor in AI from IIT Ropar. He specializes in <span class="highlight">machine learning</span>, 
+                            <span class="highlight">neural networks</span>, <span class="highlight">computer vision</span>, and 
+                            <span class="highlight">natural language processing</span>. 
+                            Krish has developed multiple AI/ML projects, including intelligent presentation generators, data analyst agents, and stock trend predictors, showcasing practical problem-solving skills.
+                        </p>
+                    </div>
+                    
+                    <div class="content-block">
+                        <h3>OPERATIONAL PARAMETERS</h3>
+                        <div class="param-grid">
+                            <div class="param-item">
+                                <span class="param-label">Location:</span>
+                                <span class="param-value">Punjab, India</span>
+                            </div>
+                            <div class="param-item">
+                                <span class="param-label">Specialization:</span>
+                                <span class="param-value">AI/ML Engineering</span>
+                            </div>
+                            <div class="param-item">
+                                <span class="param-label">Status:</span>
+                                <span class="param-value active">ACTIVE</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-badges">
+                        <div class="badge">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>IIT Scholar</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML Specialist</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-trophy"></i>
+                            <span>Team Leader</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="neural-visualization">
+                    <div class="brain-network" id="brain-network">
+                        <!-- Neural network nodes will be generated by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch-text" data-text="EDUCATION & ACADEMICS">EDUCATION & ACADEMICS</h2>
+                <p class="section-subtitle">Formal degrees and academic milestones</p>
+            </div>
+            <div class="timeline-3d" id="education-timeline-3d" style="text-align: justify;">
+                <!-- JavaScript will populate this -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch-text" data-text="SKILL MATRIX">SKILL MATRIX</h2>
+                <p class="section-subtitle">Technical proficiencies</p>
+            </div>
+            
+            <div class="skills-container">   
+                <div class="skills-categories">
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-code"></i> PROGRAMMING</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar" data-skill="Python"></div>
+                            <div class="skill-bar" data-skill="R"></div>
+                            <div class="skill-bar" data-skill="SQL"></div>
+                            <div class="skill-bar" data-skill="JavaScript"></div>
+                            <div class="skill-bar" data-skill="Java"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-brain"></i> AI/ML</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar" data-skill="Machine Learning"></div>
+                            <div class="skill-bar" data-skill="Deep Learning"></div>
+                            <div class="skill-bar" data-skill="Computer Vision"></div>
+                            <div class="skill-bar" data-skill="NLP"></div>
+                            <div class="skill-bar" data-skill="TensorFlow"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-chart-line"></i> DATA SCIENCE</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar" data-skill="Data Analysis"></div>
+                            <div class="skill-bar" data-skill="Statistics"></div>
+                            <div class="skill-bar" data-skill="Visualization"></div>
+                            <div class="skill-bar" data-skill="Pandas"></div>
+                            <div class="skill-bar" data-skill="NumPy"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-users"></i> LEADERSHIP</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar" data-skill="Project Management"></div>
+                            <div class="skill-bar" data-skill="Team Leadership"></div>
+                            <div class="skill-bar" data-skill="Communication"></div>
+                            <div class="skill-bar" data-skill="Strategic Planning"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch-text" data-text="PROJECT ARCHIVES">PROJECT ARCHIVES</h2>
+                <p class="section-subtitle">Exploration of AI-driven solutions and innovations</p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="ML">ML</button>
+                <button class="filter-btn" data-filter="Data Science">DATA SCIENCE</button>
+                <button class="filter-btn" data-filter="Web">WEB</button>
+                <button class="filter-btn" data-filter="Research">RESEARCH</button>
+            </div>
+
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications section" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch-text" data-text="CREDENTIALS MATRIX">CREDENTIALS MATRIX</h2>
+                <p class="section-subtitle">Certificates and professional credentials</p>
+            </div>
+
+            <!-- Certification Filters -->
+            <div class="cert-filters" id="cert-filters">
+                <button class="cert-filter-btn active" data-category="all">ALL</button>
+                <button class="cert-filter-btn" data-category="tech">TECH</button>
+                <button class="cert-filter-btn" data-category="leadership">LEADERSHIP</button>
+            </div>
+
+            <!-- Certifications Grid -->
+            <div class="certifications-grid" id="certifications-grid">
+                <!-- Certificates will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div class="modal-overlay" id="certificate-modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="cert-modal-close">&times;</button>
+            <div class="modal-body" id="cert-modal-body">
+                <!-- Certificate details will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience Timeline -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch-text" data-text="OPERATIONAL HISTORY">OPERATIONAL HISTORY</h2>
+                <p class="section-subtitle">Leadership journey and professional evolution</p>
+            </div>
+            
+            <div class="timeline-3d" id="timeline-3d">
+                <!-- Timeline items will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog section" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch-text" data-text="KNOWLEDGE HUB">KNOWLEDGE HUB</h2>
+                <p class="section-subtitle">Insights and discoveries in AI/ML research</p>
+            </div>
+            
+            <div class="blog-grid">
+                <!-- Blog posts will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch-text" data-text="ESTABLISH CONNECTION">ESTABLISH CONNECTION</h2>
+                <p class="section-subtitle">Initialize communication protocols</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info glass-card">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>EMAIL PROTOCOL</h4>
+                            <p>krishgupta200510@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LOCATION</h4>
+                            <p>Punjab, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>AVAILABILITY</h4>
+                            <p>24/7</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-matrix">
+                        <h4>SOCIAL MATRIX</h4>
+                        <div class="social-grid">
+                            <a href="https://github.com/23f2000792" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/krish-gupta-11612327a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.krishgupta.in" target="_blank"><i class="fas fa-globe"></i></a>
+                            <a href="mailto:krishgupta200510@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form glass-card" id="contact-form">
+                    <div class="form-group">
+                        <label>NAME</label>
+                        <input type="text" name="name" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>EMAIL</label>
+                        <input type="email" name="email" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>SUBJECT</label>
+                        <input type="text" name="subject" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>MESSAGE</label>
+                        <textarea name="message" rows="5" required></textarea>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <button type="submit" class="neon-btn primary">
+                        <span>TRANSMIT MESSAGE</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Resume Chatbot -->
+    <div class="ai-chatbot" id="ai-chatbot">
+        <div class="chatbot-toggle" id="chatbot-toggle">
+            <i class="fas fa-robot"></i>
+            <div class="pulse-ring"></div>
+        </div>
+        
+        <div class="chatbot-window glass-card" id="chatbot-window">
+            <div class="chatbot-header">
+                <h4><i class="fas fa-robot"></i> Manas.ai </h4>
+                <button class="close-btn" id="close-chatbot">×</button>
+            </div>
+            
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="message bot-message">
+                    <div class="avatar"><i class="fas fa-robot"></i></div>
+                    <div class="message-content">
+                        Hello! I'm Manas.ai. I can help you learn about Krish Gupta's experience and skills. Feel free to ask specific questions about him.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chatbot-suggestions">
+                <button class="suggestion-btn" data-question="Tell me about Krish's projects">Projects</button>
+                <button class="suggestion-btn" data-question="Give me infomation about Krish's skills">Skills</button>
+                <button class="suggestion-btn" data-question="What's the educational background?">Education</button>
+                <button class="suggestion-btn" data-question="Show me leadership roles">Leadership</button>
+            </div>
+            
+            <div class="chatbot-input">
+                <input type="text" placeholder="Ask about Krish's experience..." id="chatbot-input">
+                <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Project details will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Recruiter Mode Overlay -->
+    <div class="recruiter-overlay" id="recruiter-overlay">
+        <div class="recruiter-content glass-card">
+            
+            <!-- Close Button -->
+            <button class="close-recruiter" id="close-recruiter">&times;</button>
+            
+            <!-- Header -->
+            <div class="recruiter-header" style="text-align: center; margin-bottom: 20px;">
+                <h2 style="margin-bottom: 4px;">RESUME</h2>
+                <p class="subtitle" style="margin-top: 0; font-size: 0.95rem; color: var(--text-secondary);">
+                    Professional Summary & Key Highlights
+                </p>
+            </div>
+        
+            <!-- Main Summary Sections -->
+            <div class="recruiter-summary" style="display: flex; flex-direction: column; gap: 20px;">
+                
+                <!-- Top Projects -->
+                <section class="summary-section">
+                    <h3 style="color: var(--primary-neon); margin-bottom: 10px;">TOP PROJECTS</h3>
+                    <div class="project-highlights" id="project-highlights"></div>
+                </section>
+
+                <!-- Key Achievements -->
+                <section class="summary-section">
+                    <h3 style="color: var(--primary-neon); margin-bottom: 10px;">KEY ACHIEVEMENTS</h3>
+                    <div class="achievements-list" id="achievements-list"></div>
+                </section>
+
+                <!-- Contact Information -->
+                <section class="summary-section contact-section">
+                    <h3 style="color: var(--primary-neon); margin-bottom: 10px;">CONTACT DATA</h3>
+                    <div class="contact-summary" style="display: flex; flex-direction: column; gap: 2px;"> <!-- Tighter gap -->
+                        <div class="contact-item" style="display: flex; align-items: center; gap: 8px; padding: 4px 10px; border-radius: 6px; background: rgba(255,255,255,0.05); margin: 0;">
+                            <i class="fas fa-envelope" style="color: var(--primary-neon);"></i>
+                            <a href="mailto:krishgupta200510@gmail.com" style="color: var(--text-secondary); text-decoration: none; margin: 0;">krishgupta200510@gmail.com</a>
+                        </div>
+                        <div class="contact-item" style="display: flex; align-items: center; gap: 8px; padding: 4px 10px; border-radius: 6px; background: rgba(255,255,255,0.05); margin: 0;">
+                            <i class="fas fa-map-marker-alt" style="color: var(--primary-neon);"></i>
+                            <span style="color: var(--text-secondary); margin: 0;">Punjab, India</span>
+                        </div>
+                        <div class="contact-item" style="display: flex; align-items: center; gap: 8px; padding: 4px 10px; border-radius: 6px; background: rgba(255,255,255,0.05); margin: 0;">
+                            <i class="fas fa-graduation-cap" style="color: var(--primary-neon);"></i>
+                            <span style="color: var(--text-secondary); margin: 0;">IIT Madras & IIT Ropar</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Download Resume Button -->
+            <div class="recruiter-footer" style="text-align: center; margin-top: 25px;">
+                <button class="neon-btn primary" onclick="downloadResume()" style="position: relative; padding: 10px 25px; font-size: 1rem;">
+                    <span>DOWNLOAD RESUME</span>
+                    <div class="btn-glow"></div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recruiter Mode Overlay -->
+    <div class="recruiter-overlay" id="recruiter-overlay">
+        <div class="recruiter-content glass-card">
+
+            <!-- Close Button -->
+            <button class="close-recruiter" id="close-recruiter">&times;</button>
+
+            <h2 style="margin-bottom: 4px;">RESUME</h2>
+            <p class="subtitle" style="margin-top: 0; font-size: 0.95rem;">Professional Summary & Key Highlights</p>
+
+            <div class="recruiter-summary">
+                <div class="summary-section">
+                    <h3>TOP PROJECTS</h3>
+                    <div class="project-highlights" id="project-highlights"></div>
+                </div>
+                <div class="summary-section">
+                    <h3>KEY ACHIEVEMENTS</h3>
+                    <div class="achievements-list" id="achievements-list"></div>
+                </div>
+                <div class="summary-section">
+                    <h3>CONTACT DATA</h3>
+                    <div class="contact-summary">
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:krishgupta200510@gmail.com"> krishgupta200510@gmail.com </a></p>
+                        <p><i class="fas fa-map-marker-alt"></i> Punjab, India </p>
+                        <p><i class="fas fa-graduation-cap"></i> IIT Madras </p>
+                    </div>
+                </div>
+            </div>
+            <button class="neon-btn primary" onclick="downloadResume()">
+                <span>DOWNLOAD RESUME</span>
+                <div class="btn-glow"></div>
+            </button>
+        </div>
+    </div>
+
+    <!-- Notification System -->
+    <div class="notification-container" id="notification-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
