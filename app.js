@@ -341,7 +341,7 @@ class FuturisticPortfolio {
                 date: "December 24, 2024",
                 tags: ["Machine Learning", "AI Detection", "NLP"],
                 readTime: "30 min read",
-                link: "pdf/blogs/From_Concepts_to_Accuracy_Blog.pdf" 
+                link: "pdf/From_Concepts_to_Accuracy_Blog.pdf" 
             },
             {
                 title: "Building Scalable Data Pipelines: Lessons from IoT Projects", 
@@ -1188,14 +1188,14 @@ bindEvents() {
             blogCard.innerHTML = `
                 <h3 class="blog-title">${post.title}</h3>
                 <p class="blog-excerpt">${post.excerpt}</p>
-                <div class="blog-tags">
+                <div class="blog-tags" style="margin-bottom: 10px;">
                     ${post.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('')}
                 </div>
-                <div class="blog-meta">
+                <div class="blog-meta" style="margin-bottom: 20px;">
                     <span>${post.date}</span>
                     <span>${post.readTime}</span>
                 </div>
-                <a href="${post.link}" target="_blank" class="cert-modal-btn">Read Full Blog</a>
+                 <a href="${post.link}" target="_blank" class="cert-modal-btn" style="padding: 8px 18px; font-size: 0.8rem; border-radius: 20px;">Read Full Blog</a>
             `;
             
             blogGrid.appendChild(blogCard);
