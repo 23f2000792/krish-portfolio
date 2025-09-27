@@ -3212,7 +3212,7 @@ body {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .main-content, 
     body, 
     .hero-section,
