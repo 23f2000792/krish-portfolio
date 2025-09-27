@@ -26,7 +26,7 @@ class FuturisticPortfolio {
             {
                 id: 1,
                 title: "Deckify - AI PPT Generator",
-                category: "Web",
+                category: "ML",
                 description: "AI-powered application to automatically generate presentation slides from a simple prompt.",
                 problem: "Creating compelling presentations is time-consuming. Users often struggle with content generation and design, leading to inefficient workflows.",
                 approach: "Leveraged a Large Language Model (LLM) for content generation with a Next.js frontend. The architecture uses a serverless backend to interface with the AI model, ensuring scalability.",
