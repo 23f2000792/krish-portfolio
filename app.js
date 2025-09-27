@@ -341,7 +341,7 @@ class FuturisticPortfolio {
                 date: "December 24, 2024",
                 tags: ["Machine Learning", "AI Detection", "NLP"],
                 readTime: "30 min read",
-                pdfLink: "pdf/blogs/From_Concepts_to_Accuracy_Blog.pdf" 
+                link: "pdf/blogs/From_Concepts_to_Accuracy_Blog.pdf" 
             },
             {
                 title: "Building Scalable Data Pipelines: Lessons from IoT Projects", 
@@ -349,7 +349,7 @@ class FuturisticPortfolio {
                 date: "2024-07-22",
                 tags: ["Data Engineering", "IoT", "Scalability"],
                 readTime: "6 min read",
-                pdfLink:""
+                link:""
             },
         ];
 
