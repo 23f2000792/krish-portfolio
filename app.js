@@ -336,26 +336,21 @@ class FuturisticPortfolio {
 
         this.blogPosts = [
             {
-                title: "Advanced Techniques in Computer Vision: From Theory to Production",
-                excerpt: "Exploring cutting-edge computer vision techniques and their real-world applications in modern AI systems, from neural architectures to deployment strategies.",
-                date: "2024-08-15",
-                tags: ["Computer Vision", "Deep Learning", "AI"],
-                readTime: "8 min read"
+                title: "From Concept to Accuracy: Building an ML Model to Detect AI-Generated Text",
+                excerpt: "A walkthrough of building a model to detect AI-generated text, achieving high accuracy with an F1 score of 0.948.",
+                date: "December 24, 2024",
+                tags: ["Machine Learning", "AI Detection", "NLP"],
+                readTime: "30 min read",
+                pdfLink: "pdf/blogs/From_Concepts_to_Accuracy_Blog.pdf" 
             },
             {
                 title: "Building Scalable Data Pipelines: Lessons from IoT Projects", 
                 excerpt: "Key insights and best practices for designing robust data pipelines that handle millions of IoT sensor readings with real-time processing.",
                 date: "2024-07-22",
                 tags: ["Data Engineering", "IoT", "Scalability"],
-                readTime: "6 min read"
+                readTime: "6 min read",
+                pdfLink:""
             },
-            {
-                title: "The Evolution of NLP: From Rule-Based to Transformer Models",
-                excerpt: "A comprehensive journey through natural language processing evolution and the transformative impact of transformer architectures on modern AI.",
-                date: "2024-06-10",
-                tags: ["NLP", "Transformers", "Machine Learning"],
-                readTime: "10 min read"
-            }
         ];
 
         this.applyTheme(this.currentTheme);
@@ -1200,6 +1195,7 @@ bindEvents() {
                     <span>${post.date}</span>
                     <span>${post.readTime}</span>
                 </div>
+                ${post.link ? `<a href="${post.link}" target="_blank" class="read-more-btn">Read Full Blog</a>` : ''}
             `;
             
             blogGrid.appendChild(blogCard);
