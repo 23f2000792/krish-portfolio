@@ -1415,13 +1415,25 @@ bindEvents() {
         
         submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> TRANSMITTING...';
         submitBtn.disabled = true;
-        
-        setTimeout(() => {
+
+        // 🚀 Send email via EmailJS
+        emailjs.send("service_44grxxp", "template_nocjysb", {
+            from_name: name,
+            from_email: email,
+            subject: subject,
+            message: message
+        })
+        .then(() => {
             this.showNotification('Message transmitted successfully! Response incoming.', 'success');
             e.target.reset();
+        })
+        .catch(() => {
+            this.showNotification('Failed to send message. Try again later.', 'error');
+        })
+        .finally(() => {
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
-        }, 2000);
+        });
     }
 
     isValidEmail(email) {
