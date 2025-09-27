@@ -3217,7 +3217,7 @@ body {
     body, 
     .hero-section,
     .container {
-        padding-top: 80px; /* Adjust this value based on your navbar height */
+        padding-top: 60px;
     }
     
     /* If your navbar height changes on mobile, adjust accordingly */
@@ -3232,6 +3232,6 @@ body {
     body, 
     .hero-section,
     .container {
-        padding-top: 100px; /* Increase if navbar is taller on small screens */
+        padding-top: 100px;
     }
 }
