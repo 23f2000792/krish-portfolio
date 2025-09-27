@@ -3212,3 +3212,26 @@ body {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
+@media (max-width: 768px) {
+    .main-content, 
+    body, 
+    .hero-section,
+    .container {
+        padding-top: 80px; /* Adjust this value based on your navbar height */
+    }
+    
+    /* If your navbar height changes on mobile, adjust accordingly */
+    .navbar-fixed {
+        z-index: 1000; /* Ensure navbar stays on top */
+    }
+}
+
+/* For very small mobile screens */
+@media (max-width: 480px) {
+    .main-content, 
+    body, 
+    .hero-section,
+    .container {
+        padding-top: 100px; /* Increase if navbar is taller on small screens */
+    }
+}
