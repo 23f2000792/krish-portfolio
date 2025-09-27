@@ -297,6 +297,17 @@ class FuturisticPortfolio {
             },
             {
                 id: 8,
+                title: "Machine Learning Challenge 2.0",
+                organization: "Wayanad House, IIT Madras",
+                date: "Oct 25, 2024",
+                category: "competition",
+                description: "Secured 2nd position in Machine Learning Challenge 2.0 under the track 'AI Generated Text Detection in English Articles' with an F1 score of 0.934. The challenge involved building high-performance ML models for text classification and detection of AI-generated content.",
+                image: "images/certificates/ML_Challenge_2.0.jpg",
+                skills: ["Machine Learning", "Natural Language Processing", "Text Classification", "Model Optimization", "Python"],
+                issuedBy: "Wayanad House, IIT Madras",
+            },
+            {
+                id: 9,
                 title: "SQL (Advanced) Certificate",
                 organization: "HackerRank",
                 date: "July 10, 2024",
@@ -307,6 +318,19 @@ class FuturisticPortfolio {
                 skills: ["SQL", "Advanced Queries", "Database Management", "Joins & Subqueries", "Indexing", "Performance Optimization"],
                 issuedBy: "HackerRank",
                 verificationUrl: "https://www.hackerrank.com/certificates/dbc25dfaf0bf"
+            },
+            {
+                id: 10,
+                title: "Winner - 50 Ka Funda (Trading Simulation)",
+                organization: "Paradox 2024, IIT Madras",
+                date: "July 04, 2024",
+                category: "competition",
+                description: "Won the trading simulation event '50 Ka Funda' at Paradox 2024 by showcasing strong analytical, decision-making, and financial modeling skills in a simulated stock market environment.",
+                image: "images/certificates/50_Ka_Funda_Winner.jpg",
+                credentialId: "PRDX24P0939",
+                skills: ["Trading Strategies", "Financial Analysis", "Decision Making", "Simulation", "Risk Management"],
+                issuedBy: "Paradox 2024, IIT Madras",
+                verificationUrl: "https://verify.iitmparadox.org/?cert=PRDX24P0939"
             }
         ];
 
