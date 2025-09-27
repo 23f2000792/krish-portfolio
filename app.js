@@ -1195,7 +1195,7 @@ bindEvents() {
                     <span>${post.date}</span>
                     <span>${post.readTime}</span>
                 </div>
-                ${post.link ? `<a href="${post.link}" target="_blank" class="read-more-btn">Read Full Blog</a>` : ''}
+                ${post.link ? `<a href="${post.link}" target="_blank" class="cert-modal-btn">Read Full Blog</a>` : ''}
             `;
             
             blogGrid.appendChild(blogCard);
