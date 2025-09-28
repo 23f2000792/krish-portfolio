@@ -32,7 +32,7 @@ class FuturisticPortfolio {
                 approach: "Built a full-stack web application using Next.js, Firebase, and Tailwind CSS. Implemented AI-based waitlist prediction, Tatkal automation with pre-saved passenger details, live food ordering tied to train running status, and an AI journey planner powered by Gemini.",
                 result: "Delivered a feature-rich, futuristic, and user-friendly travel booking solution covering trains, hotels, and catering services. The platform showcases a scalable prototype for a next-gen Indian travel ecosystem.",
                 technologies: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript", "AI/ML", "Gemini", "Genkit"],
-                image: "images/projects/yatrasetu.png",
+                image: "images/projects/yatrasetu.jpg",
                 github: "https://github.com/KrishGupta-12/YatraSetu",
                 demo: "https://yatra-setu-nu.vercel.app/",
                 impact: "Reimagines the Indian travel experience with AI and automation, providing seamless train, hotel, and food booking in one unified platform."
