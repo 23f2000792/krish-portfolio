@@ -25,6 +25,20 @@ class FuturisticPortfolio {
         this.projects = [
             {
                 id: 1,
+                title: "YatraSetu",
+                category: "Web",
+                description: "A travel booking platform inspired by IRCTC, redesigned with a minimalist, modern interface and powerful AI-driven features.",
+                problem: "Existing platforms like IRCTC often suffer from complex user flows, outdated UI, and limited automation, making ticket booking, food ordering, and hotel reservations less efficient.",
+                approach: "Built a full-stack web application using Next.js, Firebase, and Tailwind CSS. Implemented AI-based waitlist prediction, Tatkal automation with pre-saved passenger details, live food ordering tied to train running status, and an AI journey planner powered by Gemini.",
+                result: "Delivered a feature-rich, futuristic, and user-friendly travel booking solution covering trains, hotels, and catering services. The platform showcases a scalable prototype for a next-gen Indian travel ecosystem.",
+                technologies: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript", "AI/ML", "Gemini", "Genkit"],
+                image: "images/projects/yatrasetu.png",
+                github: "https://github.com/KrishGupta-12/YatraSetu",
+                demo: "https://yatra-setu-nu.vercel.app/",
+                impact: "Reimagines the Indian travel experience with AI and automation, providing seamless train, hotel, and food booking in one unified platform."
+            },
+            {
+                id: 2,
                 title: "Deckify - AI PPT Generator",
                 category: "ML",
                 description: "AI-powered application to automatically generate presentation slides from a simple prompt.",
@@ -38,7 +52,7 @@ class FuturisticPortfolio {
                 impact: "Reduced presentation creation time by 70%"
             },
             {
-                id: 2,
+                id: 3,
                 title: "LLM Agent",
                 category: "ML",
                 description: "A browser-based agent with multi-tool reasoning capabilities, leveraging Large Language Models.",
@@ -50,20 +64,6 @@ class FuturisticPortfolio {
                 github: "https://github.com/23f2000792/llm_agent",
                 demo: "https://llm-agent-five.vercel.app/",
                 impact: "Enabled multi-step reasoning for complex queries"
-            },
-            {
-                id: 3,
-                title: "Data Analyst Agent",
-                category: "Data Science",
-                description: "An intelligent agent designed to perform data analysis tasks autonomously.",
-                problem: "Repetitive data analysis tasks can be automated to free up human analysts for higher-level strategic thinking.",
-                approach: "The agent was built to ingest data, perform exploratory data analysis (EDA), generate visualizations, and summarize key insights automatically.",
-                result: "Successfully automated the initial stages of the data analysis workflow, providing quick, actionable insights from raw datasets.",
-                technologies: ["Python", "Pandas", "Matplotlib", "AI Agent", "Automation"],
-                image: "images/projects/data-analyst.png",
-                github: "https://github.com/23f2000792/TDS_Data_Analyst_Agent",
-                demo: "https://tds-data-analyst-agent-2.onrender.com/",
-                impact: "Automated exploratory data analysis workflow"
             },
             {
                 id: 4,
@@ -120,6 +120,20 @@ class FuturisticPortfolio {
                 github: "https://huggingface.co/spaces/krish200510/headline-generator2",
                 demo: "https://huggingface.co/spaces/krish200510/headline-generator2",
                 impact: "Automates headline creation, boosting content creator productivity"
+            },
+            {
+                id: 8,
+                title: "Data Analyst Agent",
+                category: "Data Science",
+                description: "An intelligent agent designed to perform data analysis tasks autonomously.",
+                problem: "Repetitive data analysis tasks can be automated to free up human analysts for higher-level strategic thinking.",
+                approach: "The agent was built to ingest data, perform exploratory data analysis (EDA), generate visualizations, and summarize key insights automatically.",
+                result: "Successfully automated the initial stages of the data analysis workflow, providing quick, actionable insights from raw datasets.",
+                technologies: ["Python", "Pandas", "Matplotlib", "AI Agent", "Automation"],
+                image: "images/projects/data-analyst.png",
+                github: "https://github.com/23f2000792/TDS_Data_Analyst_Agent",
+                demo: "https://tds-data-analyst-agent-2.onrender.com/",
+                impact: "Automated exploratory data analysis workflow"
             },
         ];
 
