@@ -39,6 +39,20 @@ class FuturisticPortfolio {
             },
             {
                 id: 2,
+                title: "KrishiSetu",
+                category: "Web",
+                description: "A digital marketplace platform connecting farmers directly with buyers, ensuring fair trade, transparency, and trust in agricultural transactions.",
+                problem: "Farmers often face middlemen exploitation, lack of transparent pricing, and limited access to digital marketplaces, while buyers struggle with trust, quality assurance, and reliable sourcing.",
+                approach: "Developed a full-stack web platform using Next.js, Firebase, and Tailwind CSS. Integrated role-based authentication, farmer verification workflows, AI-powered crop advisory (Crop Doctor), community forums, trust scores, and a transparent order/invoice system with platform fees breakdown.",
+                result: "Built a secure and scalable agri-tech platform empowering farmers to sell directly, buyers to make informed purchases, and communities to engage in sustainable farming practices.",
+                technologies: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript", "AI/ML", "Firestore Rules"],
+                image: "images/projects/krishisetu-1.jpg",
+                github: "https://github.com/KrishGupta-12/KrishiSetu",
+                demo: "https://krishi-setu-beta.vercel.app/",
+                impact: "Bridges the gap between farmers and buyers by enabling fair trade, reducing middlemen dependency, and fostering trust in the digital agriculture ecosystem."
+            },
+            {
+                id: 3,
                 title: "Deckify - AI PPT Generator",
                 category: "ML",
                 description: "AI-powered application to automatically generate presentation slides from a simple prompt.",
@@ -52,7 +66,7 @@ class FuturisticPortfolio {
                 impact: "Reduced presentation creation time by 70%"
             },
             {
-                id: 3,
+                id: 4,
                 title: "LLM Agent",
                 category: "ML",
                 description: "A browser-based agent with multi-tool reasoning capabilities, leveraging Large Language Models.",
@@ -66,7 +80,7 @@ class FuturisticPortfolio {
                 impact: "Enabled multi-step reasoning for complex queries"
             },
             {
-                id: 4,
+                id: 5,
                 title: "Stock Market Trend Analyzer",
                 category: "ML",
                 description: "Utilizes AI to analyze and predict trends in the stock market.",
@@ -80,7 +94,7 @@ class FuturisticPortfolio {
                 impact: "Achieved significant predictive accuracy on volatile financial data"
             },
             {
-                id: 5,
+                id: 6,
                 title: "MyPortfolio",
                 category: "Web",
                 description: "Personal portfolio website to showcase my skills and projects.",
@@ -94,7 +108,7 @@ class FuturisticPortfolio {
                 impact: "Established a strong, interactive professional presence online"
             },
              {
-                id: 6,
+                id: 7,
                 title: "Quiz Master V1",
                 category: "Web",
                 description: "An interactive quiz application to test and expand knowledge on various subjects.",
@@ -108,7 +122,7 @@ class FuturisticPortfolio {
                 impact: "Demonstrated core front-end development capabilities"
             },
              {
-                id: 7,
+                id: 8,
                 title: "News Headline Generator",
                 category: "ML",
                 description: "An AI model that generates compelling headlines for news articles based on the article's content.",
@@ -122,7 +136,7 @@ class FuturisticPortfolio {
                 impact: "Automates headline creation, boosting content creator productivity"
             },
             {
-                id: 8,
+                id: 9,
                 title: "Data Analyst Agent",
                 category: "Data Science",
                 description: "An intelligent agent designed to perform data analysis tasks autonomously.",
