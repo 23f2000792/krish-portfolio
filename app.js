@@ -25,7 +25,7 @@ class FuturisticPortfolio {
         this.projects = [
             {
                 id: 1,
-                title: "YatraSetu",
+                title: "YaatraSetu",
                 category: "Web",
                 description: "A travel booking platform inspired by IRCTC, redesigned with a minimalist, modern interface and powerful AI-driven features.",
                 problem: "Existing platforms like IRCTC often suffer from complex user flows, outdated UI, and limited automation, making ticket booking, food ordering, and hotel reservations less efficient.",
