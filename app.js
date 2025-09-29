@@ -45,7 +45,7 @@ class FuturisticPortfolio {
                 problem: "Farmers often face middlemen exploitation, lack of transparent pricing, and limited access to digital marketplaces, while buyers struggle with trust, quality assurance, and reliable sourcing.",
                 approach: "Developed a full-stack web platform using Next.js, Firebase, and Tailwind CSS. Integrated role-based authentication, farmer verification workflows, AI-powered crop advisory (Crop Doctor), community forums, trust scores, and a transparent order/invoice system with platform fees breakdown.",
                 result: "Built a secure and scalable agri-tech platform empowering farmers to sell directly, buyers to make informed purchases, and communities to engage in sustainable farming practices.",
-                technologies: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript", "AI/ML", "Firestore Rules"],
+                technologies: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript", "AI/ML"],
                 image: "images/projects/krishisetu-1.jpg",
                 github: "https://github.com/KrishGupta-12/KrishiSetu",
                 demo: "https://krishi-setu-beta.vercel.app/",
