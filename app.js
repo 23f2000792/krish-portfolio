@@ -53,6 +53,20 @@ class FuturisticPortfolio {
             },
             {
                 id: 3,
+                title: "UrjaSetu",
+                category: "Web",
+                description: "A community-driven platform for renewable energy trading, awareness, and collaboration, enabling households and businesses to share, trade, and adopt sustainable energy practices.",
+                problem: "Urban and rural communities often struggle with lack of awareness about renewable energy, limited options for clean energy trading, and absence of decentralized platforms that foster collaboration and sustainable energy adoption.",
+                approach: "Developed a modern full-stack web platform using Next.js, Firebase, and Tailwind CSS. Integrated smart dashboards for energy producers and consumers, AI-driven energy usage insights, and peer-to-peer renewable energy trading mechanisms with secure payment flows.",
+                result: "Delivered a scalable and user-friendly renewable energy marketplace that promotes clean energy adoption, empowers communities to trade surplus energy, and spreads awareness for sustainable lifestyles.",
+                technologies: ["Next.js", "Firebase", "Tailwind CSS", "AI/ML"],
+                image: "images/projects/urjasetu.jpg",
+                github: "https://github.com/23f2000792/UrjaSetu",
+                demo: "https://urja-setu-seven.vercel.app/",
+                impact: "Fosters decentralized renewable energy adoption by bridging energy producers and consumers, supporting sustainability goals, and enhancing awareness of clean energy within communities."
+            },
+            {
+                id: 4,
                 title: "Deckify - AI PPT Generator",
                 category: "ML",
                 description: "AI-powered application to automatically generate presentation slides from a simple prompt.",
@@ -66,7 +80,7 @@ class FuturisticPortfolio {
                 impact: "Reduced presentation creation time by 70%"
             },
             {
-                id: 4,
+                id: 5,
                 title: "LLM Agent",
                 category: "ML",
                 description: "A browser-based agent with multi-tool reasoning capabilities, leveraging Large Language Models.",
@@ -80,7 +94,7 @@ class FuturisticPortfolio {
                 impact: "Enabled multi-step reasoning for complex queries"
             },
             {
-                id: 5,
+                id: 6,
                 title: "Stock Market Trend Analyzer",
                 category: "ML",
                 description: "Utilizes AI to analyze and predict trends in the stock market.",
@@ -94,7 +108,7 @@ class FuturisticPortfolio {
                 impact: "Achieved significant predictive accuracy on volatile financial data"
             },
             {
-                id: 6,
+                id: 7,
                 title: "MyPortfolio",
                 category: "Web",
                 description: "Personal portfolio website to showcase my skills and projects.",
@@ -108,7 +122,7 @@ class FuturisticPortfolio {
                 impact: "Established a strong, interactive professional presence online"
             },
              {
-                id: 7,
+                id: 8,
                 title: "Quiz Master V1",
                 category: "Web",
                 description: "An interactive quiz application to test and expand knowledge on various subjects.",
@@ -122,7 +136,7 @@ class FuturisticPortfolio {
                 impact: "Demonstrated core front-end development capabilities"
             },
              {
-                id: 8,
+                id: 9,
                 title: "News Headline Generator",
                 category: "ML",
                 description: "An AI model that generates compelling headlines for news articles based on the article's content.",
@@ -136,7 +150,7 @@ class FuturisticPortfolio {
                 impact: "Automates headline creation, boosting content creator productivity"
             },
             {
-                id: 9,
+                id: 10,
                 title: "Data Analyst Agent",
                 category: "Data Science",
                 description: "An intelligent agent designed to perform data analysis tasks autonomously.",
