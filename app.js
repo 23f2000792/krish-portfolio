@@ -73,7 +73,7 @@ class FuturisticPortfolio {
                 problem: "Citizens often face difficulties reporting civic issues, tracking their resolution, or accessing live updates from municipal authorities. Existing systems are fragmented, slow, or lack direct citizen involvement.",
                 approach: "Developed a full-stack web and PWA platform using Next.js, Firebase, and Tailwind CSS. Integrated geolocation-enabled issue reporting, real-time status updates, AI-driven issue categorization, and disaster/alert notifications. Enabled role-based access for citizens, municipal workers, and super admins.",
                 result: "Delivered a scalable, user-friendly platform connecting citizens and local authorities. Users can report issues, track resolutions, and view live alerts, increasing civic participation and accountability.",
-                technologies": ["Next.js", "Firebase", "Tailwind CSS", "AI/ML"],
+                technologies: ["Next.js", "Firebase", "Tailwind CSS", "AI/ML"],
                 image: "images/projects/jansetu.jpg",
                 github: "https://github.com/KrishGupta-12/JanSetu",
                 demo: "https://jan-setu-one.vercel.app/",
