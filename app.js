@@ -67,6 +67,20 @@ class FuturisticPortfolio {
             },
             {
                 id: 4,
+                title: "JanSetu",
+                category: "Web",
+                description: "A citizen engagement platform that allows users to report civic issues, monitor resolutions, and access real-time city alerts. It fosters transparency, accountability, and active participation in local governance.",
+                problem: "Citizens often face difficulties reporting civic issues, tracking their resolution, or accessing live updates from municipal authorities. Existing systems are fragmented, slow, or lack direct citizen involvement.",
+                approach: "Developed a full-stack web and PWA platform using Next.js, Firebase, and Tailwind CSS. Integrated geolocation-enabled issue reporting, real-time status updates, AI-driven issue categorization, and disaster/alert notifications. Enabled role-based access for citizens, municipal workers, and super admins.",
+                result: "Delivered a scalable, user-friendly platform connecting citizens and local authorities. Users can report issues, track resolutions, and view live alerts, increasing civic participation and accountability.",
+                technologies": ["Next.js", "Firebase", "Tailwind CSS", "AI/ML"],
+                image: "images/projects/jansetu.jpg",
+                github: "https://github.com/KrishGupta-12/JanSetu",
+                demo: "https://jan-setu-one.vercel.app/",
+                impact: "Empowers citizens to actively participate in governance, improves transparency in municipal operations, and enables faster resolution of civic issues through a centralized, real-time reporting platform."
+            },
+            {
+                id: 5,
                 title: "Deckify - AI PPT Generator",
                 category: "ML",
                 description: "AI-powered application to automatically generate presentation slides from a simple prompt.",
@@ -80,7 +94,7 @@ class FuturisticPortfolio {
                 impact: "Reduced presentation creation time by 70%"
             },
             {
-                id: 5,
+                id: 6,
                 title: "LLM Agent",
                 category: "ML",
                 description: "A browser-based agent with multi-tool reasoning capabilities, leveraging Large Language Models.",
@@ -94,7 +108,7 @@ class FuturisticPortfolio {
                 impact: "Enabled multi-step reasoning for complex queries"
             },
             {
-                id: 6,
+                id: 7,
                 title: "Stock Market Trend Analyzer",
                 category: "ML",
                 description: "Utilizes AI to analyze and predict trends in the stock market.",
@@ -108,7 +122,7 @@ class FuturisticPortfolio {
                 impact: "Achieved significant predictive accuracy on volatile financial data"
             },
             {
-                id: 7,
+                id: 8,
                 title: "MyPortfolio",
                 category: "Web",
                 description: "Personal portfolio website to showcase my skills and projects.",
@@ -122,7 +136,7 @@ class FuturisticPortfolio {
                 impact: "Established a strong, interactive professional presence online"
             },
              {
-                id: 8,
+                id: 9,
                 title: "Quiz Master V1",
                 category: "Web",
                 description: "An interactive quiz application to test and expand knowledge on various subjects.",
@@ -136,7 +150,7 @@ class FuturisticPortfolio {
                 impact: "Demonstrated core front-end development capabilities"
             },
              {
-                id: 9,
+                id: 10,
                 title: "News Headline Generator",
                 category: "ML",
                 description: "An AI model that generates compelling headlines for news articles based on the article's content.",
@@ -150,7 +164,7 @@ class FuturisticPortfolio {
                 impact: "Automates headline creation, boosting content creator productivity"
             },
             {
-                id: 10,
+                id: 11,
                 title: "Data Analyst Agent",
                 category: "Data Science",
                 description: "An intelligent agent designed to perform data analysis tasks autonomously.",
