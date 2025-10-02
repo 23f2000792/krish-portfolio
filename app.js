@@ -135,7 +135,7 @@ class FuturisticPortfolio {
                 demo: "https://krishg.netlify.app/",
                 impact: "Established a strong, interactive professional presence online"
             },
-             {
+            {
                 id: 9,
                 title: "Quiz Master V1",
                 category: "Web",
@@ -149,7 +149,7 @@ class FuturisticPortfolio {
                 demo: "https://github.com/23f2000792/quiz-master-app-v1",
                 impact: "Demonstrated core front-end development capabilities"
             },
-             {
+            {
                 id: 10,
                 title: "News Headline Generator",
                 category: "ML",
