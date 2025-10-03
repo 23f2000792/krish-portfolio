@@ -177,6 +177,20 @@ class FuturisticPortfolio {
                 demo: "https://tds-data-analyst-agent-2.onrender.com/",
                 impact: "Automated exploratory data analysis workflow"
             },
+            {
+                id: 11,
+                title: "NāgaPatha",
+                category: "Game",
+                description: "A modern take on the classic Snake game, combining retro gameplay with web-based leaderboards and smooth animations.",
+                problem: "Classic Snake games lack online competitiveness and modern polish, making them less engaging for today’s users.",
+                approach: "Built a web-based Snake game with one-tap controls, procedural obstacles, smooth animations, and Firebase integration for authentication and global leaderboards.",
+                result: "Delivered a fully playable game that allows users to compete globally, track high scores, and enjoy an enhanced retro experience.",
+                technologies: ["JavaScript", "HTML", "CSS", "Firebase Auth & Firestore", "Web Animations"],
+                image: "images/projects/nagapatha.jpg",
+                github: "https://github.com/KrishGupta-12/NagaPatha",
+                demo: "https://naga-patha.vercel.app/",
+                impact: "Modernized classic Snake gameplay with online leaderboard and replayable, addictive mechanics"
+            }
         ];
 
         this.education = [
