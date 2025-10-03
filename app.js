@@ -218,6 +218,20 @@ class FuturisticPortfolio {
                 github: "https://github.com/KrishGupta-12/MandalaPath",
                 demo: "https://mandala-path.vercel.app/",
                 impact: "Transforms the learning of ancient Hindu wisdom into an engaging, interactive, and meditative puzzle experience for a modern audience."
+            },
+            {
+                id: 15,
+                title: "FinWise",
+                category: "Web",
+                description: "A smart, AI-assisted finance tracker that helps users monitor income, expenses, budgets, and financial goals while providing actionable insights through interactive dashboards and analytics.",
+                problem: "Managing personal finances can be overwhelming, with users struggling to track spending, set budgets, and make informed financial decisions. There is a need for a centralized, intelligent, and engaging solution that simplifies money management.",
+                approach: "Developed a mobile-first app integrated with Firebase for authentication, storage, and real-time database management. Users can log transactions, set budgets, track progress towards financial goals, and receive AI-generated insights on spending habits. Interactive charts and trend analyses provide visual guidance on financial health.",
+                result: "A fully functional finance tracker app that allows users to add, edit, and categorize transactions, monitor budgets, track savings, and visualize spending patterns. Users receive alerts and recommendations, making financial management intuitive and proactive.",
+                technologies: ["Flutter", "Firebase Auth & Firestore", "Firebase Cloud Functions", "Cloud Storage"],
+                image: "images/projects/finwise.jpg",
+                github: "https://github.com/23f2000792/FinWise",
+                demo: "https://mandala-path.vercel.app/",
+                impact: "Empowers users to take control of their personal finances with actionable insights, goal tracking, and predictive analytics, transforming financial management from a chore into an intuitive, data-driven experience."
             }
         ];
 
