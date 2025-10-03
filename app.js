@@ -190,6 +190,20 @@ class FuturisticPortfolio {
                 github: "https://github.com/KrishGupta-12/NagaPatha",
                 demo: "https://naga-patha.vercel.app/",
                 impact: "Modernized classic Snake gameplay with online leaderboard and replayable, addictive mechanics"
+            },
+            {
+                id: 12,
+                title: "BlastGrid",
+                category: "Game",
+                description: "A modern take on the classic computer puzzle game, designed with a retro, dark aesthetic and web-based leaderboards.",
+                problem: "Classic Minesweeper lacks online score tracking, personalized challenges, and modern UI enhancements, reducing replayability and competitiveness.",
+                approach: "Built a web-based game with interactive grid logic, bomb detection, number-based deduction, timer, difficulty levels (Easy, Medium, Hard, Master), and Firebase integration to save personal best scores for logged-in users.",
+                result: "Delivered a fully playable, polished game that challenges users to clear grids logically while competing against their own best times across difficulty levels.",
+                technologies: ["JavaScript", "HTML", "CSS", "Firebase Auth & Firestore"],
+                image: "images/projects/BlastGrid.jpg",
+                github: "https://github.com/KrishGupta-12/BlastGrid",
+                demo: "https://blast-grid.vercel.app/",
+                impact: "Revitalized classic Minesweeper gameplay with personalized best scores, difficulty levels, and web-based logic puzzles"
             }
         ];
 
