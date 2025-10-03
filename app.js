@@ -178,7 +178,7 @@ class FuturisticPortfolio {
                 impact: "Automated exploratory data analysis workflow"
             },
             {
-                id: 11,
+                id: 12,
                 title: "NāgaPatha",
                 category: "Game",
                 description: "A modern take on the classic Snake game, combining retro gameplay with web-based leaderboards and smooth animations.",
@@ -192,7 +192,7 @@ class FuturisticPortfolio {
                 impact: "Modernized classic Snake gameplay with online leaderboard and replayable, addictive mechanics"
             },
             {
-                id: 12,
+                id: 13,
                 title: "BlastGrid",
                 category: "Game",
                 description: "A modern take on the classic computer puzzle game, designed with a retro, dark aesthetic and web-based leaderboards.",
@@ -204,6 +204,20 @@ class FuturisticPortfolio {
                 github: "https://github.com/KrishGupta-12/BlastGrid",
                 demo: "https://blast-grid.vercel.app/",
                 impact: "Revitalized classic Minesweeper gameplay with personalized best scores, difficulty levels, and web-based logic puzzles"
+            },
+            {
+                id: 14,
+                title: "MandalaPath",
+                category: "Game",
+                description: "A meditative puzzle game where players align sacred rings to solve mandalas, unlocking profound wisdom from Hindu philosophy and art.",
+                problem: "Learning about cultural and philosophical concepts can often be passive and non-engaging. There is a need for an interactive experience that makes discovering ancient wisdom feel both playful and meaningful.",
+                approach: "Developed a web-based puzzle game where users rotate concentric rings to align symbols and solve intricate mandalas. On completion, a Genkit AI flow generates a unique cultural insight (a Sanskrit shloka or fact).",
+                result: "A polished, fully playable game that provides a unique, meditative experience. Users can create accounts, track their progress through multiple levels and mandalas, and receive AI-generated cultural and philosophical insights, creating a rewarding loop of play and learning.",
+                technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "ShadCN UI", "Genkit", "Firebase Auth & Firestore"],
+                image: "images/projects/mandalapath.jpg",
+                github: "https://github.com/KrishGupta-12/MandalaPath",
+                demo: "https://mandala-path.vercel.app/",
+                impact: "Transforms the learning of ancient Hindu wisdom into an engaging, interactive, and meditative puzzle experience for a modern audience."
             }
         ];
 
