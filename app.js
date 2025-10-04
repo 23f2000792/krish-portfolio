@@ -232,6 +232,20 @@ class FuturisticPortfolio {
                 github: "https://github.com/23f2000792/FinWise",
                 demo: "",
                 impact: "Empowers users to take control of their personal finances with actionable insights, goal tracking, and predictive analytics, transforming financial management from a chore into an intuitive, data-driven experience."
+            },
+            {
+                id: 16,
+                title: "SanskritVerse.ai",
+                category: "Web",
+                description: "An AI-powered Sanskrit learning and exploration app that helps users understand shlokas from Sanatan scriptures through grammar explanations, meanings, transliterations, and daily spiritual insights.",
+                problem: "Understanding Sanskrit verses from ancient scriptures is often difficult for modern learners due to complex grammar, lack of context, and limited access to guided resources. There is a need for a digital tool that simplifies learning while preserving authenticity.",
+                approach: "Developed a Firebase-integrated mobile and web app using modern AI to analyze Sanskrit shlokas. The system parses input text to provide word meanings, transliterations, grammar tags, and English translations. Integrated text-to-speech for accurate pronunciation, a daily verse feature, and user-specific verse storage using Firestore.",
+                result: "A fully functional AI-based Sanskrit learning app where users can explore verses from the Bhagavad Gita, Ramayana, and Upanishads. It provides verse explanations, grammar details, and pronunciation, promoting accessibility and interest in Sanatan Sanskriti.",
+                technologies: ["Firebase Auth & Firestore", "Firebase Cloud Functions", "Google TTS API", "Gemini API"],
+                image: "images/projects/sanskritverse.jpg",
+                github: "https://github.com/KrishGupta-12/SankritVerse.ai",
+                demo: "https://sankrit-verse-ai.vercel.app/",
+                impact: "Preserves and promotes Sanatan Sanskriti by blending AI and spirituality, enabling users worldwide to learn Sanskrit verses intuitively and meaningfully while deepening cultural and linguistic appreciation."
             }
         ];
 
