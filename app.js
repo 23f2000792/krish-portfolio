@@ -230,7 +230,7 @@ class FuturisticPortfolio {
                 technologies: ["Flutter", "Firebase Auth & Firestore", "Firebase Cloud Functions", "Cloud Storage"],
                 image: "images/projects/finwise.jpg",
                 github: "https://github.com/23f2000792/FinWise",
-                demo: "https://mandala-path.vercel.app/",
+                demo: "",
                 impact: "Empowers users to take control of their personal finances with actionable insights, goal tracking, and predictive analytics, transforming financial management from a chore into an intuitive, data-driven experience."
             }
         ];
