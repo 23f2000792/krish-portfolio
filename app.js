@@ -276,6 +276,19 @@ class FuturisticPortfolio {
 
         this.experiences = [
             {
+                organization: "Sportify Society, IIT Madras",
+                role: "Deputy Secretary",
+                duration: "Oct 2025 — Present",
+                description: "Elected as the Deputy Secretary of The Sportify, the official sports society of IIT Madras BS program, responsible for overseeing operations, event management, and inter-department coordination to promote sports engagement across the student community.",
+                achievements: [
+                    "Successfully elected through society-wide elections with high participation",
+                    "Supervising and mentoring core teams across multiple sports and media divisions",
+                    "Spearheading new initiatives to increase student participation and outreach",
+                    "Overseeing planning and execution of flagship sporting events and tournaments",
+                    "Enhancing collaboration between PR, Design, and Editorial teams for better event promotion"
+                ]
+            },
+            {
                 organization: "Sundarbans House",
                 role: "Regional Coordinator",
                 duration: "Aug 2024 — Jul 2025",
@@ -338,7 +351,18 @@ class FuturisticPortfolio {
         // Certifications data
         this.certifications = [
             {
-                id: 1,
+                id: 2,
+                title: "Design-a-Thon 2025",
+                organization: "Indian Institute of Information Technology (IIIT) Nagpur",
+                date: "October 2025",
+                category: "hackathon",
+                description: "Participated in Design-a-Thon 2025 organized by IIIT Nagpur, where our team developed 'SoulSync' — an innovative wellness and emotional resonance platform. Out of 367 registered teams, we secured a place in the top 15 finalists and achieved 7th position in the national finals.",
+                image: "images/certificates/designathon_iiit_nagpur.jpg",
+                skills: ["UI/UX Design", "Product Ideation", "User Research", "Prototyping", "Pitch Presentation"],
+                issuedBy: "IIIT Nagpur"
+            },
+            {
+                id: 2,
                 title: "Introduction to Deploy ML Apps using GCP",
                 organization: "Indian Institute of Technology Madras",
                 date: "September 07, 2025",
@@ -350,7 +374,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/462b1d5363f77742e6ff3997cd0fbaf0b621c366f8e09a1abb5b6d4cb9493a63"
             },
             {
-                id: 2,
+                id: 3,
                 title: "Mathematical Foundations for Machine Learning",
                 organization: "Indian Institute of Technology Madras",
                 date: "August 15, 2025",
@@ -362,7 +386,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/d80c47c3c6aa807ac8585cf40f2fa5246ed6b2466db48b37c0aaf674062e321c"
             },
             {
-                id: 3,
+                id: 4,
                 title: "Regional Coordinator - Sundarbans House, IIT Madras",
                 organization: "Sundarbans House, IIT Madras",
                 date: "July 23, 2025",
@@ -373,7 +397,7 @@ class FuturisticPortfolio {
                 issuedBy: "Student Affairs Department, IIT Madras",
             },
             {
-                id: 4,
+                id: 5,
                 title: "Event Head - Kampus Run, Paradox 2025 ",
                 organization: "Paradox, IIT Madras",
                 date: "July 17, 2025",
@@ -385,7 +409,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://verify.iitmparadox.org/?cert=PRDX2500603"
             },
             {
-                id: 5,
+                id: 6,
                 title: "Introduction to Data Engineering using Azure",
                 organization: "NPTEL, IIT Madras",
                 date: "April 27, 2025",
@@ -398,7 +422,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://elearn.nptel.ac.in/Ecertificate/?q=NP25WS275573835868"
             },
             {
-                id: 6,
+                id: 7,
                 title: " Hands-on Dynamic Programming",
                 organization: "Indian Institute of Technology Madras",
                 date: "January 22, 2025",
@@ -410,7 +434,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/6b1293ef7e499a8ba1140dbe773528cae9bc5769feca0768e30adc3bf611e8ff"
             },
             {
-                id: 7,
+                id: 8,
                 title: "Understanding Google Cloud Platform",
                 organization: "Indian Institute of Technology Madras",
                 date: "January 19, 2025",
@@ -422,7 +446,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/d4c6fd06493f241732057bb7434ecdde43ed405139f429bfa1bdc1bc6678060e"
             },
             {
-                id: 8,
+                id: 9,
                 title: "Machine Learning Challenge 2.0",
                 organization: "Wayanad House, IIT Madras",
                 date: "Oct 25, 2024",
@@ -433,7 +457,7 @@ class FuturisticPortfolio {
                 issuedBy: "Wayanad House, IIT Madras",
             },
             {
-                id: 9,
+                id: 10,
                 title: "SQL (Advanced) Certificate",
                 organization: "HackerRank",
                 date: "July 10, 2024",
@@ -446,7 +470,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://www.hackerrank.com/certificates/dbc25dfaf0bf"
             },
             {
-                id: 10,
+                id: 11,
                 title: "Winner - 50 Ka Funda (Trading Simulation)",
                 organization: "Paradox 2024, IIT Madras",
                 date: "July 04, 2024",
