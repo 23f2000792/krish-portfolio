@@ -276,9 +276,9 @@ class FuturisticPortfolio {
 
         this.experiences = [
             {
-                organization: "Sportify Society, IIT Madras",
+                organization: "The Sportify Society, IIT Madras",
                 role: "Deputy Secretary",
-                duration: "Oct 2025 — Present",
+                duration: "Oct 2025 - Present",
                 description: "Elected as the Deputy Secretary of The Sportify, the official sports society of IIT Madras BS program, responsible for overseeing operations, event management, and inter-department coordination to promote sports engagement across the student community.",
                 achievements: [
                     "Successfully elected through society-wide elections with high participation",
@@ -325,7 +325,7 @@ class FuturisticPortfolio {
                 ]
             },
             {
-                organization: "THE Sportify",
+                organization: "The Sportify Society, IIT Madras",
                 role: "Head of Research & Publications",
                 duration: "Jun 2024 — Oct 2024",
                 description: "Led content development for newsletters and magazines, featuring sports news, athlete profiles, and analytical articles.",
@@ -351,10 +351,10 @@ class FuturisticPortfolio {
         // Certifications data
         this.certifications = [
             {
-                id: 2,
+                id: 1,
                 title: "Design-a-Thon 2025",
                 organization: "Indian Institute of Information Technology (IIIT) Nagpur",
-                date: "October 2025",
+                date: "October 11, 2025",
                 category: "hackathon",
                 description: "Participated in Design-a-Thon 2025 organized by IIIT Nagpur, where our team developed 'SoulSync' — an innovative wellness and emotional resonance platform. Out of 367 registered teams, we secured a place in the top 15 finalists and achieved 7th position in the national finals.",
                 image: "images/certificates/designathon_iiit_nagpur.jpg",
