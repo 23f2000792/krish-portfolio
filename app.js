@@ -179,20 +179,6 @@ class FuturisticPortfolio {
             },
             {
                 id: 12,
-                title: "NāgaPatha",
-                category: "Game",
-                description: "A modern take on the classic Snake game, combining retro gameplay with web-based leaderboards and smooth animations.",
-                problem: "Classic Snake games lack online competitiveness and modern polish, making them less engaging for today’s users.",
-                approach: "Built a web-based Snake game with one-tap controls, procedural obstacles, smooth animations, and Firebase integration for authentication and global leaderboards.",
-                result: "Delivered a fully playable game that allows users to compete globally, track high scores, and enjoy an enhanced retro experience.",
-                technologies: ["JavaScript", "HTML", "CSS", "Firebase Auth & Firestore", "Web Animations"],
-                image: "images/projects/nagapatha.jpg",
-                github: "https://github.com/KrishGupta-12/NagaPatha",
-                demo: "https://naga-patha.vercel.app/",
-                impact: "Modernized classic Snake gameplay with online leaderboard and replayable, addictive mechanics"
-            },
-            {
-                id: 13,
                 title: "BlastGrid",
                 category: "Game",
                 description: "A modern take on the classic computer puzzle game, designed with a retro, dark aesthetic and web-based leaderboards.",
@@ -204,48 +190,6 @@ class FuturisticPortfolio {
                 github: "https://github.com/KrishGupta-12/BlastGrid",
                 demo: "https://blast-grid.vercel.app/",
                 impact: "Revitalized classic Minesweeper gameplay with personalized best scores, difficulty levels, and web-based logic puzzles"
-            },
-            {
-                id: 14,
-                title: "MandalaPath",
-                category: "Game",
-                description: "A meditative puzzle game where players align sacred rings to solve mandalas, unlocking profound wisdom from Hindu philosophy and art.",
-                problem: "Learning about cultural and philosophical concepts can often be passive and non-engaging. There is a need for an interactive experience that makes discovering ancient wisdom feel both playful and meaningful.",
-                approach: "Developed a web-based puzzle game where users rotate concentric rings to align symbols and solve intricate mandalas. On completion, a Genkit AI flow generates a unique cultural insight (a Sanskrit shloka or fact).",
-                result: "A polished, fully playable game that provides a unique, meditative experience. Users can create accounts, track their progress through multiple levels and mandalas, and receive AI-generated cultural and philosophical insights, creating a rewarding loop of play and learning.",
-                technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "ShadCN UI", "Genkit", "Firebase Auth & Firestore"],
-                image: "images/projects/mandalapath.jpg",
-                github: "https://github.com/KrishGupta-12/MandalaPath",
-                demo: "https://mandala-path.vercel.app/",
-                impact: "Transforms the learning of ancient Hindu wisdom into an engaging, interactive, and meditative puzzle experience for a modern audience."
-            },
-            {
-                id: 15,
-                title: "FinWise",
-                category: "Web",
-                description: "A smart, AI-assisted finance tracker that helps users monitor income, expenses, budgets, and financial goals while providing actionable insights through interactive dashboards and analytics.",
-                problem: "Managing personal finances can be overwhelming, with users struggling to track spending, set budgets, and make informed financial decisions. There is a need for a centralized, intelligent, and engaging solution that simplifies money management.",
-                approach: "Developed a mobile-first app integrated with Firebase for authentication, storage, and real-time database management. Users can log transactions, set budgets, track progress towards financial goals, and receive AI-generated insights on spending habits. Interactive charts and trend analyses provide visual guidance on financial health.",
-                result: "A fully functional finance tracker app that allows users to add, edit, and categorize transactions, monitor budgets, track savings, and visualize spending patterns. Users receive alerts and recommendations, making financial management intuitive and proactive.",
-                technologies: ["Flutter", "Firebase Auth & Firestore", "Firebase Cloud Functions", "Cloud Storage"],
-                image: "images/projects/finwise.jpg",
-                github: "https://github.com/23f2000792/FinWise",
-                demo: "https://fin-wise-v3.vercel.app/",
-                impact: "Empowers users to take control of their personal finances with actionable insights, goal tracking, and predictive analytics, transforming financial management from a chore into an intuitive, data-driven experience."
-            },
-            {
-                id: 16,
-                title: "SanskritVerse.ai",
-                category: "Web",
-                description: "An AI-powered Sanskrit learning and exploration app that helps users understand shlokas from Sanatan scriptures through grammar explanations, meanings, transliterations, and daily spiritual insights.",
-                problem: "Understanding Sanskrit verses from ancient scriptures is often difficult for modern learners due to complex grammar, lack of context, and limited access to guided resources. There is a need for a digital tool that simplifies learning while preserving authenticity.",
-                approach: "Developed a Firebase-integrated mobile and web app using modern AI to analyze Sanskrit shlokas. The system parses input text to provide word meanings, transliterations, grammar tags, and English translations. Integrated text-to-speech for accurate pronunciation, a daily verse feature, and user-specific verse storage using Firestore.",
-                result: "A fully functional AI-based Sanskrit learning app where users can explore verses from the Bhagavad Gita, Ramayana, and Upanishads. It provides verse explanations, grammar details, and pronunciation, promoting accessibility and interest in Sanatan Sanskriti.",
-                technologies: ["Firebase Auth & Firestore", "Firebase Cloud Functions", "Google TTS API", "Gemini API"],
-                image: "images/projects/sanskritverse.jpg",
-                github: "https://github.com/KrishGupta-12/SankritVerse.ai",
-                demo: "https://sankrit-verse-ai.vercel.app/",
-                impact: "Preserves and promotes Sanatan Sanskriti by blending AI and spirituality, enabling users worldwide to learn Sanskrit verses intuitively and meaningfully while deepening cultural and linguistic appreciation."
             }
         ];
 
@@ -352,6 +296,25 @@ class FuturisticPortfolio {
         this.certifications = [
             {
                 id: 1,
+                title: "Gen AI Exchange Hackathon 2025",
+                organization: "Google Cloud",
+                date: "January 14, 2026",
+                category: "hackathon",
+                description: "Participated in the Gen AI Exchange Hackathon 2025 organized by Google Cloud and powered by Hack2skill. Contributed through the submission of a functional prototype under the problem statement 'AI-Powered Marketplace Assistant for Local Artisans', focusing on leveraging Generative AI to empower local artisans, enhance digital discovery, and support India's innovation ecosystem aligned with the vision of Viksit Bharat.",
+                image: "images/certificates/genai_exchange_google_cloud.jpg",
+                skills: [
+                    "Generative AI",
+                    "AI Product Design",
+                    "Problem Solving",
+                    "Prototype Development",
+                    "AI for Social Impact",
+                    "Marketplaces & Recommendation Systems"
+                ],
+                issuedBy: "Google Cloud (Powered by Hack2skill)",
+                verificationUrl: "https://certificate.hack2skill.com/user/genaipoweredmarketplace/2025H2S08GH-P701417"
+            },
+            {
+                id: 2,
                 title: "Design-a-Thon 2025",
                 organization: "Indian Institute of Information Technology (IIIT) Nagpur",
                 date: "October 11, 2025",
@@ -362,7 +325,7 @@ class FuturisticPortfolio {
                 issuedBy: "IIIT Nagpur"
             },
             {
-                id: 2,
+                id: 3,
                 title: "Introduction to Deploy ML Apps using GCP",
                 organization: "Indian Institute of Technology Madras",
                 date: "September 07, 2025",
@@ -374,7 +337,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/462b1d5363f77742e6ff3997cd0fbaf0b621c366f8e09a1abb5b6d4cb9493a63"
             },
             {
-                id: 3,
+                id: 4,
                 title: "Mathematical Foundations for Machine Learning",
                 organization: "Indian Institute of Technology Madras",
                 date: "August 15, 2025",
@@ -386,7 +349,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/d80c47c3c6aa807ac8585cf40f2fa5246ed6b2466db48b37c0aaf674062e321c"
             },
             {
-                id: 4,
+                id: 5,
                 title: "Regional Coordinator - Sundarbans House, IIT Madras",
                 organization: "Sundarbans House, IIT Madras",
                 date: "July 23, 2025",
@@ -397,7 +360,7 @@ class FuturisticPortfolio {
                 issuedBy: "Student Affairs Department, IIT Madras",
             },
             {
-                id: 5,
+                id: 6,
                 title: "Event Head - Kampus Run, Paradox 2025 ",
                 organization: "Paradox, IIT Madras",
                 date: "July 17, 2025",
@@ -409,7 +372,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://verify.iitmparadox.org/?cert=PRDX2500603"
             },
             {
-                id: 6,
+                id: 7,
                 title: "Introduction to Data Engineering using Azure",
                 organization: "NPTEL, IIT Madras",
                 date: "April 27, 2025",
@@ -422,7 +385,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://elearn.nptel.ac.in/Ecertificate/?q=NP25WS275573835868"
             },
             {
-                id: 7,
+                id: 8,
                 title: " Hands-on Dynamic Programming",
                 organization: "Indian Institute of Technology Madras",
                 date: "January 22, 2025",
@@ -434,7 +397,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/6b1293ef7e499a8ba1140dbe773528cae9bc5769feca0768e30adc3bf611e8ff"
             },
             {
-                id: 8,
+                id: 9,
                 title: "Understanding Google Cloud Platform",
                 organization: "Indian Institute of Technology Madras",
                 date: "January 19, 2025",
@@ -446,7 +409,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/d4c6fd06493f241732057bb7434ecdde43ed405139f429bfa1bdc1bc6678060e"
             },
             {
-                id: 9,
+                id: 10,
                 title: "Machine Learning Challenge 2.0",
                 organization: "Wayanad House, IIT Madras",
                 date: "Oct 25, 2024",
@@ -457,7 +420,7 @@ class FuturisticPortfolio {
                 issuedBy: "Wayanad House, IIT Madras",
             },
             {
-                id: 10,
+                id: 11,
                 title: "SQL (Advanced) Certificate",
                 organization: "HackerRank",
                 date: "July 10, 2024",
@@ -470,7 +433,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://www.hackerrank.com/certificates/dbc25dfaf0bf"
             },
             {
-                id: 11,
+                id: 12,
                 title: "Winner - 50 Ka Funda (Trading Simulation)",
                 organization: "Paradox 2024, IIT Madras",
                 date: "July 04, 2024",
