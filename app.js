@@ -301,7 +301,7 @@ class FuturisticPortfolio {
                 date: "January 14, 2026",
                 category: "hackathon",
                 description: "Participated in the Gen AI Exchange Hackathon 2025 organized by Google Cloud and powered by Hack2skill. Contributed through the submission of a functional prototype under the problem statement 'AI-Powered Marketplace Assistant for Local Artisans', focusing on leveraging Generative AI to empower local artisans, enhance digital discovery, and support India's innovation ecosystem aligned with the vision of Viksit Bharat.",
-                image: "images/certificates/genai_exchange_google_cloud.jpg",
+                image: "images/certificates/genai_exchange_google_cloud.jpeg",
                 skills: [
                     "Generative AI",
                     "AI Product Design",
