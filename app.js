@@ -315,6 +315,25 @@ class FuturisticPortfolio {
             },
             {
                 id: 2,
+                title: "Zinnovatio Hackathon 2025",
+                organization: "Chandigarh University",
+                date: "October 2025",
+                category: "hackathon",
+                description: "Participated in the 36-hour Zinnovatio Hackathon 2025 organized by the Department of Computer Science Engineering, Chandigarh University. Led the development of 'KrishiSetu' — an AI-powered agritech ecosystem designed to support farmers through intelligent decision-making, crop health analysis, soil assessment, market price prediction, and community-driven insights under the AgriTech and Rural Transformation track.",
+                image: "images/certificates/zinnovatio_chandigarh_university.jpg",
+                skills: [
+                    "Generative AI",
+                    "AI Product Architecture",
+                    "Computer Vision",
+                    "Data Analytics",
+                    "AgriTech Solutions",
+                    "System Design",
+                    "Team Leadership"
+                ],
+                issuedBy: "Department of Computer Science Engineering, Chandigarh University"
+            },
+            {
+                id: 3,
                 title: "Design-a-Thon 2025",
                 organization: "Indian Institute of Information Technology (IIIT) Nagpur",
                 date: "October 11, 2025",
@@ -325,7 +344,7 @@ class FuturisticPortfolio {
                 issuedBy: "IIIT Nagpur"
             },
             {
-                id: 3,
+                id: 4,
                 title: "Introduction to Deploy ML Apps using GCP",
                 organization: "Indian Institute of Technology Madras",
                 date: "September 07, 2025",
@@ -337,7 +356,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/462b1d5363f77742e6ff3997cd0fbaf0b621c366f8e09a1abb5b6d4cb9493a63"
             },
             {
-                id: 4,
+                id: 5,
                 title: "Mathematical Foundations for Machine Learning",
                 organization: "Indian Institute of Technology Madras",
                 date: "August 15, 2025",
@@ -349,7 +368,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/d80c47c3c6aa807ac8585cf40f2fa5246ed6b2466db48b37c0aaf674062e321c"
             },
             {
-                id: 5,
+                id: 6,
                 title: "Regional Coordinator - Sundarbans House, IIT Madras",
                 organization: "Sundarbans House, IIT Madras",
                 date: "July 23, 2025",
@@ -360,7 +379,7 @@ class FuturisticPortfolio {
                 issuedBy: "Student Affairs Department, IIT Madras",
             },
             {
-                id: 6,
+                id: 7,
                 title: "Event Head - Kampus Run, Paradox 2025 ",
                 organization: "Paradox, IIT Madras",
                 date: "July 17, 2025",
@@ -372,7 +391,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://verify.iitmparadox.org/?cert=PRDX2500603"
             },
             {
-                id: 7,
+                id: 8,
                 title: "Introduction to Data Engineering using Azure",
                 organization: "NPTEL, IIT Madras",
                 date: "April 27, 2025",
@@ -385,7 +404,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://elearn.nptel.ac.in/Ecertificate/?q=NP25WS275573835868"
             },
             {
-                id: 8,
+                id: 9,
                 title: " Hands-on Dynamic Programming",
                 organization: "Indian Institute of Technology Madras",
                 date: "January 22, 2025",
@@ -397,7 +416,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/6b1293ef7e499a8ba1140dbe773528cae9bc5769feca0768e30adc3bf611e8ff"
             },
             {
-                id: 9,
+                id: 10,
                 title: "Understanding Google Cloud Platform",
                 organization: "Indian Institute of Technology Madras",
                 date: "January 19, 2025",
@@ -409,7 +428,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://ds.study.iitm.ac.in/document_verification/d4c6fd06493f241732057bb7434ecdde43ed405139f429bfa1bdc1bc6678060e"
             },
             {
-                id: 10,
+                id: 11,
                 title: "Machine Learning Challenge 2.0",
                 organization: "Wayanad House, IIT Madras",
                 date: "Oct 25, 2024",
@@ -420,7 +439,7 @@ class FuturisticPortfolio {
                 issuedBy: "Wayanad House, IIT Madras",
             },
             {
-                id: 11,
+                id: 12,
                 title: "SQL (Advanced) Certificate",
                 organization: "HackerRank",
                 date: "July 10, 2024",
@@ -433,7 +452,7 @@ class FuturisticPortfolio {
                 verificationUrl: "https://www.hackerrank.com/certificates/dbc25dfaf0bf"
             },
             {
-                id: 12,
+                id: 13,
                 title: "Winner - 50 Ka Funda (Trading Simulation)",
                 organization: "Paradox 2024, IIT Madras",
                 date: "July 04, 2024",
