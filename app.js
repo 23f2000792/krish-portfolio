@@ -204,9 +204,9 @@ class FuturisticPortfolio {
             {
                 id: 2,
                 institution: "Indian Institute of Technology Ropar",
-                degree: "Minor in Artificial Intelligence",
+                degree: "Major in Artificial Intelligence",
                 period: "2024 - 2025",
-                details: "Completed a Minor in AI focusing on neural networks, convolutional neural networks (CNNs), reinforcement learning, NLP, and IoT applications. Hands-on labs and projects include building AI solutions for real-world problems and working with cutting-edge AI frameworks."
+                details: "Completed a Major in AI focusing on neural networks, convolutional neural networks (CNNs), reinforcement learning, NLP, and IoT applications. Hands-on labs and projects include building AI solutions for real-world problems and working with cutting-edge AI frameworks."
             },
             {
                 id: 3,
