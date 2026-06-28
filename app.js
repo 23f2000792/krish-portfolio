@@ -16,10 +16,12 @@ class FuturisticPortfolio {
         this.isDeleting = false;
         
         this.typedTexts = [
-            'Data Scientist',
             'AI/ML Engineer',
-            'Problem Solver',
-            'Leadership Catalyst'
+            'Full Stack Developer',
+            'GenAI & Agentic AI Developer',
+            'Student Leader',
+            'Hackathon Finalist',
+            'Data Scientist'
         ];
 
         this.projects = [
@@ -220,16 +222,21 @@ class FuturisticPortfolio {
 
         this.experiences = [
             {
-                organization: "The Sportify Society, IIT Madras",
+                organization: "Sportify • IIT Madras BS Degree Program",
                 role: "Deputy Secretary",
-                duration: "Oct 2025 - Present",
-                description: "Elected as the Deputy Secretary of The Sportify, the official sports society of IIT Madras BS program, responsible for overseeing operations, event management, and inter-department coordination to promote sports engagement across the student community.",
+                duration: "Oct 2025 – June 2026",
+                description:
+                    "Elected Deputy Secretary of the official Sports Society of IIT Madras BS Degree Program. Led overall society operations, strategic planning, technology initiatives, branding, outreach, and execution of national-scale sporting events.",
+                
                 achievements: [
-                    "Successfully elected through society-wide elections with high participation",
-                    "Supervising and mentoring core teams across multiple sports and media divisions",
-                    "Spearheading new initiatives to increase student participation and outreach",
-                    "Overseeing planning and execution of flagship sporting events and tournaments",
-                    "Enhancing collaboration between PR, Design, and Editorial teams for better event promotion"
+                    "Managed a 70+ member core team across 7 departments.",
+                    "Led planning and execution of Paradox 2026 sports events with 5000+ registrations.",
+                    "Launched Sportify HER to promote women's participation in sports.",
+                    "Led redevelopment of the official Sportify website.",
+                    "Built certificate verification, grievance, and analytics portals.",
+                    "Organized Rashtriya Khel Mahotsav across multiple Indian cities.",
+                    "Introduced new SOPs, automation systems, and reporting dashboards.",
+                    "Worked closely with faculty, student leadership and external stakeholders."
                 ]
             },
             {
@@ -463,6 +470,99 @@ class FuturisticPortfolio {
                 skills: ["Trading Strategies", "Financial Analysis", "Decision Making", "Simulation", "Risk Management"],
                 issuedBy: "Paradox 2024, IIT Madras",
                 verificationUrl: "https://verify.iitmparadox.org/?cert=PRDX24P0939"
+            },
+            {
+                id: 14,
+                title: "Sportify Deputy Secretary",
+                organization: "IIT Madras BS Degree Program",
+                date: "May 2026",
+                category: "leadership",
+                description: "Awarded the Certificate of Appreciation for serving as the Deputy Secretary of Sportify, the official Sports Society of the IIT Madras BS Degree Program. Led the society's overall operations, technology initiatives, strategic planning, and execution of flagship sporting events while contributing significantly to student engagement and community development.",
+                image: "images/certificates/Sportify_Deputy_Secretary.jpg",
+                skills: [
+                    "Leadership",
+                    "Strategic Planning",
+                    "Team Management",
+                    "Event Management",
+                    "Community Building",
+                    "Operations",
+                    "Project Management"
+                ],
+                issuedBy: "IIT Madras BS Degree Program"
+            },
+            {
+                id: 15,
+                title: "Making Interactive Dashboards with Power BI",
+                organization: "IIT Madras BS Degree Program",
+                date: "January 22, 2026",
+                category: "tech",
+                description: "Successfully completed a hands-on workshop on building interactive dashboards using Microsoft Power BI. Learned data visualization, dashboard creation, report publishing, and techniques for transforming raw data into meaningful business insights.",
+                image: "images/certificates/PowerBI_Workshop.jpg",
+                skills: [
+                    "Power BI",
+                    "Data Visualization",
+                    "Business Intelligence",
+                    "Dashboard Design",
+                    "Data Analytics",
+                    "Reporting"
+                ],
+                issuedBy: "IIT Madras BS Degree Program"
+            },
+            {
+                id: 16,
+                title: "SuperHack 2025 Global AI Hackathon",
+                organization: "SuperOps",
+                date: "September 2025",
+                category: "hackathon",
+                description: "Participated in the SuperHack 2025 Global AI Hackathon organized by SuperOps in association with AWS and Hack2Skill. Built innovative AI solutions focused on the future of Agentic AI for IT Management while collaborating in a competitive global hackathon environment.",
+                image: "images/certificates/SuperHack2025.jpg",
+                credentialId: "2025H2S09SH-P00750",
+                skills: [
+                    "Generative AI",
+                    "Agentic AI",
+                    "Artificial Intelligence",
+                    "Cloud Computing",
+                    "Problem Solving",
+                    "Hackathon"
+                ],
+                issuedBy: "SuperOps",
+                verificationUrl: "https://certificate.hack2skill.com/legacy/2025H2S09SH-P00750"
+            },
+            {
+                id: 17,
+                title: "Cryptography for Beginners",
+                organization: "IIT Madras BS Degree Program",
+                date: "May 20, 2026",
+                category: "tech",
+                description: "Successfully completed a workshop introducing the fundamentals of modern cryptography. Covered encryption techniques, hashing algorithms, public-key cryptography, digital signatures, and practical applications of secure communication.",
+                image: "images/certificates/Cryptography_For_Beginners.jpg",
+                skills: [
+                    "Cryptography",
+                    "Cyber Security",
+                    "Encryption",
+                    "Hash Functions",
+                    "Digital Signatures",
+                    "Information Security"
+                ],
+                issuedBy: "IIT Madras BS Degree Program
+            },
+            {
+                id: 18,
+                title: "Build Your Own Text Compressor using Huffman Coding",
+                organization: "IIT Madras BS Degree Program",
+                date: "May 28, 2026",
+                category: "tech",
+                description: "Completed a hands-on workshop on implementing Huffman Coding for lossless data compression. Explored binary trees, greedy algorithms, priority queues, and efficient file compression techniques through practical coding exercises.",
+                image: "images/certificates/Huffman_Coding.jpg",
+                skills: [
+                    "Data Structures",
+                    "Algorithms",
+                    "Huffman Coding",
+                    "Greedy Algorithms",
+                    "Data Compression",
+                    "Problem Solving"
+                ],
+                issuedBy: "IIT Madras BS Degree Program"
             }
         ];
 
