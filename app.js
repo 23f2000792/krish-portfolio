@@ -544,7 +544,7 @@ class FuturisticPortfolio {
                     "Digital Signatures",
                     "Information Security"
                 ],
-                issuedBy: "IIT Madras BS Degree Program
+                issuedBy: "IIT Madras BS Degree Program"
             },
             {
                 id: 18,
