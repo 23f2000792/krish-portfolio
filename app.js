@@ -568,21 +568,21 @@ class FuturisticPortfolio {
 
         this.blogPosts = [
             {
+                title: "When We Were Twenty",
+                excerpt: "A memoir about friendship, leadership, mistakes, and the unforgettable summer of Paradox 2026. More than a story about events, it's about the people who quietly changed who we became.",
+                date: "July 2026",
+                tags: ["Memoir", "Leadership", "Friendship", "College Life"],
+                readTime: "5-6 hour read",
+                link: "pdf/When_We_Were_Twenty.pdf"
+            },
+            {
                 title: "From Concept to Accuracy: Building an ML Model to Detect AI-Generated Text",
                 excerpt: "A walkthrough of building a model to detect AI-generated text, achieving high accuracy with an F1 score of 0.948.",
                 date: "December 24, 2024",
                 tags: ["Machine Learning", "AI Detection", "NLP"],
                 readTime: "30 min read",
                 link: "pdf/From_Concepts_to_Accuracy_Blog.pdf" 
-            },
-            {
-                title: "Building Scalable Data Pipelines: Lessons from IoT Projects", 
-                excerpt: "Key insights and best practices for designing robust data pipelines that handle millions of IoT sensor readings with real-time processing.",
-                date: "2024-07-22",
-                tags: ["Data Engineering", "IoT", "Scalability"],
-                readTime: "6 min read",
-                link:""
-            },
+            }
         ];
 
         this.applyTheme(this.currentTheme);
