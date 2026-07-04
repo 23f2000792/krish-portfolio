@@ -124,20 +124,6 @@ class FuturisticPortfolio {
                 impact: "Achieved significant predictive accuracy on volatile financial data"
             },
             {
-                id: 8,
-                title: "MyPortfolio",
-                category: "Web",
-                description: "Personal portfolio website to showcase my skills and projects.",
-                problem: "A standard resume doesn't effectively demonstrate technical and creative abilities. A dynamic portfolio was needed to showcase projects and skills interactively.",
-                approach: "Built with modern web technologies (HTML, CSS, JS) to be fully responsive, visually engaging, and easily updatable.",
-                result: "Created a central hub for my professional presence, effectively communicating my skills and project experience to recruiters and peers.",
-                technologies: ["HTML5", "CSS3", "JavaScript", "UI/UX"],
-                image: "images/projects/portfolio.png",
-                github: "https://github.com/23f2000792/myportfolio",
-                demo: "https://krishg.netlify.app/",
-                impact: "Established a strong, interactive professional presence online"
-            },
-            {
                 id: 9,
                 title: "Quiz Master V1",
                 category: "Web",
@@ -884,16 +870,15 @@ bindEvents() {
     }
 
     handleLoad() {
-        setTimeout(() => {
-            document.getElementById('loading-screen').classList.add('hidden');
-            this.isLoaded = true;
-            this.generateProjects();
-            this.generateTimeline();
-            this.generateEducation();
-            this.generateCertifications();
-            this.generateBlogPosts();
-            this.initScrollAnimations();
-        }, 3000);
+        this.isLoaded = true;
+        
+        this.generateProjects();
+        this.generateTimeline();
+        this.generateEducation();
+        this.generateCertifications();
+        this.generateBlogPosts();
+
+        this.initScrollAnimations();
     }
 
     applyTheme(theme) {
